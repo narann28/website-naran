@@ -1,23 +1,52 @@
-import logo from './logo.svg';
+import React, { useRef, useEffect } from 'react';
 import './App.css';
+import 'boxicons/css/boxicons.min.css';
+import Typed from 'typed.js';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Experience from './Components/Experience';
+// import Interests from './Components/Interests';
+import Contact from './Components/Contact';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Footer from './Components/Footer';
 
 function App() {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const initTyped = () => {
+      const typed = new Typed(el.current, {
+        strings: [
+          'Software Developer',
+          'Coder',
+          '',
+        ],
+        loop: true,
+        typeSpeed: 40,
+        backSpeed: 40,
+        backDelay: 1000,
+      });
+
+      return () => {
+        typed.destroy();
+      };
+    };
+
+    if (el.current) {
+      initTyped();
+    }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Home el={el} />
+      <About />
+      <Skills />
+      <Experience />
+      <Contact />
+      <Footer />
     </div>
   );
 }
