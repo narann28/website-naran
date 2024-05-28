@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/website-naran/static/css/main.ac16636b.css",
+    "main.js": "/website-naran/static/js/main.28602138.js",
+    "static/js/453.97275ab2.chunk.js": "/website-naran/static/js/453.97275ab2.chunk.js",
+    "static/media/naranimg.png": "/website-naran/static/media/naranimg.4b8642fde69327629174.png",
+    "static/media/custom-bike.JPEG": "/website-naran/static/media/custom-bike.5b5d8a6dfddfa6552563.JPEG",
+    "static/media/swim-instructor.JPEG": "/website-naran/static/media/swim-instructor.09efd60224a7cccc00b9.JPEG",
+    "static/media/earth.jpg": "/website-naran/static/media/earth.2729a1765fe9c950f9bc.jpg",
+    "static/media/boxicons.svg": "/website-naran/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/website-naran/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/website-naran/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/website-naran/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/soil.PNG": "/website-naran/static/media/soil.e08b4a4634c0024e6546.PNG",
+    "static/media/newnaranimg.JPG": "/website-naran/static/media/newnaranimg.3d46e3d4759fd59fb231.JPG",
+    "static/media/boxicons.woff2": "/website-naran/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/space-prog.png": "/website-naran/static/media/space-prog.64bdeaf651b087f9bfcc.png",
+    "static/media/deanza.png": "/website-naran/static/media/deanza.59f7d6801f6ba20869e0.png",
+    "static/media/salesforce.jpg": "/website-naran/static/media/salesforce.810b18b8c4e304f0f2fd.jpg",
+    "static/media/ucr1.jpg": "/website-naran/static/media/ucr1.a1b119c366dd32ed9a2e.jpg",
+    "index.html": "/website-naran/index.html",
+    "main.ac16636b.css.map": "/website-naran/static/css/main.ac16636b.css.map",
+    "main.28602138.js.map": "/website-naran/static/js/main.28602138.js.map",
+    "453.97275ab2.chunk.js.map": "/website-naran/static/js/453.97275ab2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac16636b.css",
+    "static/js/main.28602138.js"
+  ]
+}
